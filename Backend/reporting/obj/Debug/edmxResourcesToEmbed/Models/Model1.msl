@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjectRoomModelStoreContainer" CdmEntityContainer="ProjectRoomEntities">
+    <EntitySetMapping Name="OrdersData">
+      <EntityTypeMapping TypeName="ProjectRoomModel.OrdersData">
+        <MappingFragment StoreEntitySet="OrdersData">
+          <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+          <ScalarProperty Name="Date_In" ColumnName="Date_In" />
+          <ScalarProperty Name="Status_order" ColumnName="Status_order" />
+          <ScalarProperty Name="floor_id" ColumnName="floor_id" />
+          <ScalarProperty Name="Floor_num" ColumnName="Floor_num" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Cus_id" ColumnName="Cus_id" />
+          <ScalarProperty Name="fristname" ColumnName="fristname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+          <ScalarProperty Name="LineID" ColumnName="LineID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="CateRoom_id" ColumnName="CateRoom_id" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentData">
+      <EntityTypeMapping TypeName="ProjectRoomModel.PaymentData">
+        <MappingFragment StoreEntitySet="PaymentData">
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Payment_Date" ColumnName="Payment_Date" />
+          <ScalarProperty Name="Payment_Pic" ColumnName="Payment_Pic" />
+          <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+          <ScalarProperty Name="Date_In" ColumnName="Date_In" />
+          <ScalarProperty Name="Status_order" ColumnName="Status_order" />
+          <ScalarProperty Name="Cus_id" ColumnName="Cus_id" />
+          <ScalarProperty Name="fristname" ColumnName="fristname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="Title_id" ColumnName="Title_id" />
+          <ScalarProperty Name="Title_name" ColumnName="Title_name" />
+          <ScalarProperty Name="LineID" ColumnName="LineID" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="CateRoom_id" ColumnName="CateRoom_id" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
